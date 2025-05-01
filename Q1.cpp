@@ -53,10 +53,14 @@ string read() {
 int main() {
     string in;
     cout << "Enter String = ";
+
     // cin >> in;
     getline(cin, in);
+
     store(encrypt(in));
-    cout << encrypt(in) << endl;
+
+    // cout << encrypt(in) << endl;
     // cout << decrypt(in) << endl;
+    
     cout << decrypt(read()) << endl;
 }
